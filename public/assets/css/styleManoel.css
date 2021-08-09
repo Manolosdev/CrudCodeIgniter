@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 de jul. de 2021, 15:43:55
+    Author     : Manoel Louro
+*/
+.btn-voltar {
+    height: 45px;
+    border: 1px solid #5a5872;
+    line-height: 43px;
+    text-align: center;
+    padding: 0 25px;
+    color: #e84e4e;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.btn-voltar:hover {
+    background-color: rgba(90, 88, 114, 0.2);
+    color: #e84e4e;
+}
+
+.btn-primary {
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    padding: 0 25px;
+    color: #fff;
+    background-color: #e84e4e;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    border: none;
+}
+
+.btn-primary:hover {
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.text-right {
+    text-align: right;
+}
+
+ul.pagination {
+    -webkit-box-pack: end!important;
+    justify-content: center
+}
+
+ul.pagination li {
+    display: inline;
+    text-align: right
+}
+
+ul.pagination li a {
+    color: #2B2A3D;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+}
+
+ul.pagination li.active {
+    background-color: #e84e4e;
+    color: #fff !important
+}
+
+.text-main {
+    color: #e84e4e;
+}
